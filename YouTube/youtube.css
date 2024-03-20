@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #121212;
+    --text-color: #ccc;
+    --shine-color: #219ebc;
+}
+
+
+#container{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+aside{
+    height: 100%;
+    background-color: var(--shine-color);
+}
+
+.wrapper{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: var(--text-color);
+}

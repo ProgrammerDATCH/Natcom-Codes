@@ -1,0 +1,75 @@
+nav{
+    background-color: #ccc;
+    color: #121212;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    height: 50vh;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.search{
+    position: relative;
+}
+.search input{
+    width: 100%;
+    height: 30px;
+}
+.search img{
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.box{
+    background-color: aqua;
+    width: 20%;
+    height: 50%;
+}
+.box-style{
+    height: fit-content;
+    background-color: red;
+    margin: 10px 60px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    line-height: 1;
+
+}
+
+.container{
+    box-shadow: 0 0 3px black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.videos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.box-vid{
+    width: 50px;
+    height: 50px;
+    background-color: #121212;
+}
