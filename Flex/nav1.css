@@ -1,0 +1,18 @@
+.nav-articles{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: scroll;
+}
+
+.nav-articles div{
+    background-color: grey;
+    border-radius: 10px;
+    min-width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

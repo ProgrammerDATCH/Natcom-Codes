@@ -1,0 +1,45 @@
+.container{
+    background-color: #121212;
+    width: 80%;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+.vid{
+    background-color: #ccc;
+    width: 80%;
+    height: 100px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid3{
+    /* animation: rotating 4s ease 1s infinite; */
+    animation-name: rotating;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotating {
+    0%{
+        transform: rotate(0deg);
+        background-color: aqua;
+    }
+    50%{
+        transform: rotate(180deg);
+        background-color: green;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: red;
+    }
+}
