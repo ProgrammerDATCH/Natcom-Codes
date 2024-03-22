@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.insert{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.insert-table{
+    background-color: #2C5DBDce;
+    border-radius: 8px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 2px white;
+}
+
+table{
+    padding: 10px;
+
+}
+
+td{
+    padding: 4px;
+}
+
+.submit-tr{
+    text-align: center;
+}
+
+.users-table{
+    background-color: #2C5DBDce;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+.show-user{
+    display: flex;
+    justify-content: center;
+}
+
+.users-table tr:not(.tr-head) td{
+    padding-left: 30px;
+}
+.actions{
+    display: flex;
+    gap: 5px;
+}
