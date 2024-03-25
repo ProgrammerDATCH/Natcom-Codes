@@ -1,0 +1,37 @@
+.container{
+    background-color: grey;
+    height: fit-content;
+    border-radius: 5px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.from{
+    display: flex;
+    gap: 40px;
+    margin: 10px;
+}
+form{
+    background-color: skyblue;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+input[type="text"],input[type="submit"]{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+}
+.user_table{
+    background-color: skyblue;
+    border-radius: 15px;
+}
+.action{
+    display: flex;
+    gap: 10px;
+}
