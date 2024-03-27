@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    color: black;
+    width: 90%;
+}
+.upper, .lower{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    width: 30%;
+}
+
+.section-ul{
+    list-style: none;
+}
+
+.section-ul li{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+/* Popup with visible background */
+/* .section1{
+    position: relative;
+}
+.popup{
+    background-color: rgba(255, 0, 0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
